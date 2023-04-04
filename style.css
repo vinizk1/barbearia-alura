@@ -1,44 +1,41 @@
-body{
-    
-}
+<!DOCTYPE html>
+<html lang="pt-br">
 
-#macaquinho {
-    width: 100%;
-    height: 320px;
-}
+    <head>
 
-.principal {
-    background: #CCCCCC
-}
+        <meta charset="UTF-8">
+        <title>Barbearia do vini lindão</title>
+        <link rel="stylesheet" href="style.css">
 
-h1 {
-    text-align: center;
-}
+    </head>
+    <body>
+        <header>
+            <h1 class = "titulo-principal">Barbearia do Vini</h1>
+        </header>
+        <img id = "macaquinho" src = "1.jpeg">
+        <div class = "principal">
 
-p {
-    text-align: center;
-}
+            <h2 class = "titulo-centralizado"> Barbearia do vini Lindão</h2>
 
-#local {
-    font-size: 27px
-}
+            <p> Localizada no centro do universo</p>
+        
+            <p>Todos os tipos de corte para deixar geral naquele pique</p>
 
-em strong{
-    color: rgb(14, 33, 207);
-}
+            <p><em><strong>Só é feio quem nunca colou aqui</strong></em></p>
 
-.itens {
-    font-style: italic;
-}
+            <p id="local">localizada no centro do seu <strong>Coração</strong></p>
+        </div>
 
-.beneficios1 {
-    background: #ffffff;
-}
+            <div class = "beneficios1">
+            <h3 class = "titulo-centralizado">Benefícios</h3>
 
-h2 {
-    text-align: center;
-}
-
-.imagembeneficios {
-    width: 50%;
-}
+        <ul>
+            <li class="itens">Atendimento diferenciado</li>
+            <li class="itens">Espaço climatizado</li>
+            <li class="itens">Clinetes diferenciados</li>
+            <li class="itens">Suco de uva gratis</li>
+        </ul>
+        <img src = "beneficios.png" class = "imagembeneficios">
+        </div>
+    </body>
+</html>
